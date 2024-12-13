@@ -1,0 +1,8 @@
+# Source YAML
+# Reference documentation: https://docs.rilldata.com/reference/project-files/sources
+
+type: source
+
+connector: "duckdb"
+db: "~/devcode/DEMO/datasets/cops/db/cops.ddb"
+sql: "select * from events"
